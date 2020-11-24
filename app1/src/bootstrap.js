@@ -7,6 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <>
+      <p>I'm from app1</p>
       <h1>Hello from React component</h1>
       <React.Suspense fallback='Loading Counter...'>
         <Counter
